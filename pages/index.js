@@ -8,14 +8,14 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div>
-      <h1>Homepage</h1>
-      <p>
+      <h1 className={styles.title}>Homepage</h1>
+      <p className={styles.text}>
         Cupidatat ex sint aliquip voluptate ex ut incididunt nisi sunt culpa
         nulla. Veniam dolor sint excepteur occaecat proident ullamco magna Lorem
         in. Proident ad et excepteur do do irure. Voluptate quis proident fugiat
         fugiat labore irure amet culpa ullamco labore.
       </p>
-      <p>
+      <p className={styles.text}>
         Amet amet aliquip consectetur ea tempor elit laboris fugiat qui tempor
         eu consequat tempor eiusmod. In minim minim mollit do. Consectetur
         aliquip reprehenderit Lorem mollit exercitation proident sunt est sunt
@@ -25,7 +25,7 @@ export default function Home() {
         duis adipisicing. Qui amet non veniam anim adipisicing.
       </p>
       <Link href="/ninjas">
-        <a>See Ninja Listing</a>
+        <a className={styles.btn}>See Ninja Listing</a>
       </Link>
     </div>
   );
